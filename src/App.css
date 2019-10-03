@@ -20,3 +20,73 @@
 .App-link {
   color: #09d3ac;
 }
+
+.nav-bar {
+  height: 50px;
+  background: #032B60;
+}
+
+.nav-containter {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 50px; 
+  background: #032B60;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #2ab1ce;
+  
+}
+
+.mainContainer {
+  display: inline-grid;
+  margin: 20px;
+  padding: 10px;
+  border: 10px;
+  height: 500px;
+  width: 300px;
+  background: rgba(155,106,190,1);
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 26px 10px 6px -2px rgba(0,0,0,0.92);
+  transition: all 0.3s linear;
+}
+
+.img-container{
+  width: 100%;
+  display: block;
+}
+
+.images{
+  height: 400px;
+  width: 300px;
+  border-radius: 9px 9px 9px 9px;
+  padding: 5px;
+  margin: 2px;
+  align-content: center;
+}
+
+.title{
+  text-align: center
+}
+
+
+
+
