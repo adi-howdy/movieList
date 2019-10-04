@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 function MovieContainer(props){
     const {Title, Poster} = props.movie;
@@ -9,6 +10,7 @@ function MovieContainer(props){
         <div className="img-container">
         <img src={Poster}  className="images"/>
         </div>
+        <Link to={`/MoviesDetails/${Title}`}> Details </Link>
         </article>
         </>
     )

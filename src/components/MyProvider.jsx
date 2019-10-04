@@ -3,7 +3,8 @@ import MyContext from './MyContext';
 import items from '../movielist.js';
 
 class MyProvider extends Component {
-    state = {  
+    state = { 
+        movie: [], 
         movieAll: [],
         movieFeatured: [],
         movieFilter: []
@@ -16,6 +17,7 @@ class MyProvider extends Component {
        this.setState({
            movie: movie,
            movieFeatured: movieFeatured
+
        })
     }
 
@@ -27,9 +29,15 @@ class MyProvider extends Component {
         return tempItems;
     }
 
+    getMovies = (title) => {
+        let tempMovies = [...this.state.movie];
+        let SingleMovies = tempMovies.find(temp => temp.Title === title);
+        return SingleMovies;        
+    }
+
     render() { 
         return ( 
-            <MyContext.Provider value={{...this.state}}>
+            <MyContext.Provider value={{...this.state, getMovies:this.getMovies}}>
                 {this.props.children}
             </MyContext.Provider>
          );

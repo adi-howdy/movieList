@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Series from './components/Series';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MyProvider from './components/MyProvider';
+import MoviesDetails from './components/MoviesDetails';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/AllMovies" component={AllMovies}/>
         <Route path="/Login" component={Login}/>
         <Route path="/Series" component={Series}/>
+        <Route path="/MoviesDetails/:id" component={MoviesDetails}/>
       </Switch>
     </Router>
     </MyProvider>

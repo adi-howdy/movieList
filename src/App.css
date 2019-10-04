@@ -69,6 +69,8 @@ nav ul li a:hover {
   transition: all 0.3s linear;
 }
 
+
+
 .img-container{
   width: 100%;
   display: block;
@@ -86,6 +88,17 @@ nav ul li a:hover {
 .title{
   text-align: center
 }
+
+
+.MoviesArticle {
+  margin: auto;
+  text-align: center;
+  background: #89cde2;
+  box-shadow: 26px 10px 6px -2px rgba(0,0,0,0.92);
+  border-radius: 9px 9px 9px 9px;
+  width: 50%;
+}
+
 
 
 
