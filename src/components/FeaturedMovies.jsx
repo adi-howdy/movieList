@@ -18,10 +18,7 @@ class FeaturedMovies extends Component {
             <>
                 <section className="movieContainer">
                    {movies}
-                </section>
-            
-            
-                
+                </section>     
             </>
          );
     }

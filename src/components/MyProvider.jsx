@@ -12,12 +12,13 @@ class MyProvider extends Component {
 
     componentDidMount(){
        let movie =  this.formatData(items);
-        let movieFeatured = movie.filter( item => 
+       let movieFeatured = movie.filter( item => 
             item.Year === "2019")
+       let movieAll = movie.filter(item => item.Type === "movie") 
        this.setState({
            movie: movie,
-           movieFeatured: movieFeatured
-
+           movieFeatured: movieFeatured,
+           movieAll : movieAll
        })
     }
 
