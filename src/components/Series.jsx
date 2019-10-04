@@ -1,14 +1,33 @@
 import React, { Component } from 'react';
+import MyConsumer from './MyConsumer';
+import MovieContainer from './MovieContainer';
 
-class Series extends Component {
-    state = {  }
-    render() { 
+function Series() {
+    
         return ( 
-            <>
-            <p>Series</p>
-            </>
+            <MyConsumer>
+            {
+                value=> {
+                    const {series} = value;
+                    console.log(series);
+                    const seriesAll = series.map(item => {
+                        return (
+                            <MovieContainer movie={item} />
+                        )
+                    })
+                    return(
+                        <>
+                        <section>
+                        {seriesAll}
+                        </section>
+                        </>
+                    )
+                   
+                }
+            }
+            </MyConsumer>
          );
     }
-}
+
  
 export default Series;

@@ -61,7 +61,7 @@ nav ul li a:hover {
   margin: 20px;
   padding: 10px;
   border: 10px;
-  height: 500px;
+  height: 520px;
   width: 300px;
   background: rgba(155,106,190,1);
   border-radius: 9px 9px 9px 9px;
@@ -72,8 +72,44 @@ nav ul li a:hover {
 
 
 .img-container{
+  position: relative;
   width: 100%;
   display: block;
+}
+
+
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #222;
+  background: #af9a7d;
+  overflow: hidden;
+  width: 200px;
+  margin: auto;
+  padding: 0.4rem 0.9rem;
+  border: 3px solid #af9a7d;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: #af9a7d;
+}
+
+.Movie-link {
+  top: 50%;
+  left: 50%;
+  
+  
+} 
+
+.img-container:hover .btn-primary{
+  transform: scale(5);
 }
 
 .images{
@@ -98,6 +134,8 @@ nav ul li a:hover {
   border-radius: 9px 9px 9px 9px;
   width: 50%;
 }
+
+
 
 
 

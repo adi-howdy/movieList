@@ -7,7 +7,8 @@ class MyProvider extends Component {
         movie: [], 
         movieAll: [],
         movieFeatured: [],
-        movieFilter: []
+        movieFilter: [],
+        series: []
     }
 
     componentDidMount(){
@@ -15,10 +16,12 @@ class MyProvider extends Component {
        let movieFeatured = movie.filter( item => 
             item.Year === "2019")
        let movieAll = movie.filter(item => item.Type === "movie") 
+       let series = movie.filter(item => item.Type === "series")
        this.setState({
            movie: movie,
            movieFeatured: movieFeatured,
-           movieAll : movieAll
+           movieAll : movieAll,
+           series
        })
     }
 

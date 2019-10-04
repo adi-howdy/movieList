@@ -10,7 +10,7 @@ function MovieContainer(props){
         <div className="img-container">
         <img src={Poster}  className="images"/>
         </div>
-        <Link to={`/MoviesDetails/${Title}`}> Details </Link>
+        <Link to={`/MoviesDetails/${Title}`} className = "btn-primary Movie-link"> Details </Link>
         </article>
         </>
     )
