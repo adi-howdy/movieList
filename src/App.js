@@ -8,6 +8,7 @@ import Series from './components/Series';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MyProvider from './components/MyProvider';
 import MoviesDetails from './components/MoviesDetails';
+import FilterMovies from './components/FilterMovies';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/Login" component={Login}/>
         <Route path="/Series" component={Series}/>
         <Route path="/MoviesDetails/:id" component={MoviesDetails}/>
+        <Route path="/FilterMovies" component={FilterMovies}/>
       </Switch>
     </Router>
     </MyProvider>

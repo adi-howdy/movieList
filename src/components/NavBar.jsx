@@ -25,6 +25,11 @@ class NavBar extends Component {
                     </Link>
                 </li>
                 <li>
+                    <Link to="/FilterMovies">
+                        <span>Filter Movies</span>
+                    </Link>
+                </li>
+                <li>
                     <Link to="/Login">
                         <span>Login</span>
                     </Link>
