@@ -10,10 +10,11 @@ class FilterMovies extends Component {
         genre : []
     }
 
-    
     render() { 
-        const {movieFilter} = this.context;
+        const {movieFilter, handleChange, movieFiltered} = this.context;
 
+        let movieFilter_after = movieFiltered();
+        
         var type = new Array();
         let unique = movieFilter.map(item=> {
             item.Genre.split(",").map(item=> type.push(item.trim()))
@@ -26,11 +27,11 @@ class FilterMovies extends Component {
         let uniqueGenre = getUniqueGenre();
         uniqueGenre = uniqueGenre.map((item,index) => {
             return (
-                    <option value="item" key="index">{item}</option>
+                    <option value={item} key={index}>{item}</option>
             
         )})
 
-        const movieFilter1 = movieFilter.map(item => {
+        const movieFilter1 = movieFilter_after.map(item => {
            return(
             <MovieContainer movie={item}/>
            )
@@ -40,8 +41,8 @@ class FilterMovies extends Component {
         return ( 
             <>
             <form>
-                <label htmlFor="type">Type of Movie</label>
-                <select name ="type" id="type">
+                <label htmlFor="genre">Type of Movie</label>
+                <select name ="genre" id="genre" value={this.value} onChange={handleChange}>
                     {uniqueGenre}
                 </select>
             </form>
