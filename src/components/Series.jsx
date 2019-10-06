@@ -9,7 +9,6 @@ function Series() {
             {
                 value=> {
                     const {series} = value;
-                    console.log(series);
                     const seriesAll = series.map(item => {
                         return (
                             <MovieContainer movie={item} />

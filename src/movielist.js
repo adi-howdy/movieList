@@ -825,5 +825,537 @@ export default
       "Production":"N/A",
       "Website":"N/A",
       "Response":"True"
+   },
+   { 
+      "Title":"Animal",
+      "Year":"2014",
+      "Rated":"Not Rated",
+      "Released":"01 Feb 2015",
+      "Runtime":"86 min",
+      "Genre":"Action, Adventure, Drama, Horror, Mystery, Sci-Fi, Thriller",
+      "Director":"Brett Simmons",
+      "Writer":"Thommy Hutson, Catherine Trillo",
+      "Actors":"Joey Lauren Adams, Elizabeth Gillies, Paul Iacono, Thorsten Kaye",
+      "Plot":"When plans for a weekend vacation hit a dead end, a group of close-knit friends find themselves stranded in unfamiliar territory, pursued by a menacing, blood thirsty predator.",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"N/A",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMTQ3OTAxMjQzNl5BMl5BanBnXkFtZTgwODM4ODk4MTE@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"4.7/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"43%"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"4.7",
+      "imdbVotes":"5,930",
+      "imdbID":"tt2996684",
+      "Type":"movie",
+      "DVD":"17 Feb 2015",
+      "BoxOffice":"N/A",
+      "Production":"Universal Pictures",
+      "Website":"http://donotfeedtheanimal.com/",
+      "Response":"True"
+   },
+   { 
+      "Title":"Enter the Anime",
+      "Year":"2019",
+      "Rated":"N/A",
+      "Released":"05 Aug 2019",
+      "Runtime":"58 min",
+      "Genre":"Documentary",
+      "Director":"Alex Burunova",
+      "Writer":"Julia Yorks (Writer), Meggy Garol (additional writer)",
+      "Actors":"Shinji Aramaki, Kôzô Morishita, Tania Nolan, Yoko Takahashi",
+      "Plot":"It is a documentary aimed at newcomers to anime, and follows anime newbie, Alex Burunova, as she dives into the mysterious world of the genre. The documentary features some of the biggest ...",
+      "Language":"Japanese",
+      "Country":"USA, Japan",
+      "Awards":"N/A",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMTgwNGI5MTAtMGJlZS00MzZlLWJjNmItZDcxYTFmY2VmMGJlXkEyXkFqcGdeQXVyMjUxMTEwNTE@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"2.7/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"0%"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"2.7",
+      "imdbVotes":"958",
+      "imdbID":"tt10662450",
+      "Type":"movie",
+      "DVD":"05 Aug 2019",
+      "BoxOffice":"N/A",
+      "Production":"Netflix",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"The Kids Are All Right",
+      "Year":"2010",
+      "Rated":"R",
+      "Released":"30 Jul 2010",
+      "Runtime":"106 min",
+      "Genre":"Comedy, Drama, Romance",
+      "Director":"Lisa Cholodenko",
+      "Writer":"Lisa Cholodenko, Stuart Blumberg",
+      "Actors":"Julianne Moore, Annette Bening, Mark Ruffalo, Mia Wasikowska",
+      "Plot":"Two children conceived by artificial insemination bring their biological father into their non-traditional family life.",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"Nominated for 4 Oscars. Another 28 wins & 120 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMjE4NTMwNDg5MF5BMl5BanBnXkFtZTcwNDY2ODE0Mw@@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"7.0/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"93%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"86/100"
+         }
+      ],
+      "Metascore":"86",
+      "imdbRating":"7.0",
+      "imdbVotes":"121,330",
+      "imdbID":"tt0842926",
+      "Type":"movie",
+      "DVD":"16 Nov 2010",
+      "BoxOffice":"$20,803,237",
+      "Production":"Focus Features",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"The Big Short",
+      "Year":"2015",
+      "Rated":"R",
+      "Released":"23 Dec 2015",
+      "Runtime":"130 min",
+      "Genre":"Biography, Comedy, Drama, History",
+      "Director":"Adam McKay",
+      "Writer":"Charles Randolph (screenplay by), Adam McKay (screenplay by), Michael Lewis (based upon the book by)",
+      "Actors":"Ryan Gosling, Rudy Eisenzopf, Casey Groves, Charlie Talbert",
+      "Plot":"In 2006-7 a group of investors bet against the US mortgage market. In their research they discover how flawed and corrupt the market is.",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"Won 1 Oscar. Another 37 wins & 79 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"7.8/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"88%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"81/100"
+         }
+      ],
+      "Metascore":"81",
+      "imdbRating":"7.8",
+      "imdbVotes":"318,082",
+      "imdbID":"tt1596363",
+      "Type":"movie",
+      "DVD":"15 Mar 2016",
+      "BoxOffice":"N/A",
+      "Production":"Paramount Pictures",
+      "Website":"http://www.thebigshortmovie.com/",
+      "Response":"True"
+   },
+   { 
+      "Title":"A Very Long Engagement",
+      "Year":"2004",
+      "Rated":"R",
+      "Released":"14 Jan 2005",
+      "Runtime":"133 min",
+      "Genre":"Drama, Mystery, Romance, War",
+      "Director":"Jean-Pierre Jeunet",
+      "Writer":"Sébastien Japrisot (novel), Jean-Pierre Jeunet (story and adaptation), Guillaume Laurant (story and adaptation), Guillaume Laurant (dialogue)",
+      "Actors":"Audrey Tautou, Gaspard Ulliel, Dominique Pinon, Chantal Neuwirth",
+      "Plot":"Tells the story of a young woman's relentless search for her fiancé, who has disappeared from the trenches of the Somme during World War One.",
+      "Language":"French, German, Corsican",
+      "Country":"France, USA",
+      "Awards":"Nominated for 2 Oscars. Another 17 wins & 33 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BZWI4ZTgwMzktNjk3Yy00OTlhLTg3YTAtMTA1MWVlMWJiOTRiXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"7.6/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"78%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"76/100"
+         }
+      ],
+      "Metascore":"76",
+      "imdbRating":"7.6",
+      "imdbVotes":"68,579",
+      "imdbID":"tt0344510",
+      "Type":"movie",
+      "DVD":"24 May 2005",
+      "BoxOffice":"$6,200,000",
+      "Production":"Warner Bros. Pictures",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"Walk the Line",
+      "Year":"2005",
+      "Rated":"PG-13",
+      "Released":"18 Nov 2005",
+      "Runtime":"136 min",
+      "Genre":"Biography, Drama, Music, Romance",
+      "Director":"James Mangold",
+      "Writer":"Johnny Cash (book), Johnny Cash (book), Gill Dennis, James Mangold",
+      "Actors":"Joaquin Phoenix, Reese Witherspoon, Ginnifer Goodwin, Robert Patrick",
+      "Plot":"A chronicle of country music legend Johnny Cash's life, from his early days on an Arkansas cotton farm to his rise to fame with Sun Records in Memphis, where he recorded alongside Elvis Presley, Jerry Lee Lewis, and Carl Perkins.",
+      "Language":"English, Russian",
+      "Country":"USA, Germany",
+      "Awards":"Won 1 Oscar. Another 44 wins & 46 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMjIyOTU3MjUxOF5BMl5BanBnXkFtZTcwMTQ0NjYzMw@@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"7.8/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"83%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"72/100"
+         }
+      ],
+      "Metascore":"72",
+      "imdbRating":"7.8",
+      "imdbVotes":"215,954",
+      "imdbID":"tt0358273",
+      "Type":"movie",
+      "DVD":"28 Feb 2006",
+      "BoxOffice":"$119,317,827",
+      "Production":"20th Century Fox",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"Game of Thrones",
+      "Year":"2011–",
+      "Rated":"TV-MA",
+      "Released":"17 Apr 2011",
+      "Runtime":"57 min",
+      "Genre":"Action, Adventure, Drama, Fantasy, Romance",
+      "Director":"N/A",
+      "Writer":"David Benioff, D.B. Weiss",
+      "Actors":"Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington",
+      "Plot":"Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years.",
+      "Language":"English",
+      "Country":"USA, UK",
+      "Awards":"Won 1 Golden Globe. Another 273 wins & 454 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMjA5NzA5NjMwNl5BMl5BanBnXkFtZTgwNjg2OTk2NzM@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"9.5/10"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"9.5",
+      "imdbVotes":"1,429,496",
+      "imdbID":"tt0944947",
+      "Type":"series",
+      "totalSeasons":"8",
+      "Response":"True"
+   },
+   { 
+      "Title":"Bang",
+      "Year":"1995",
+      "Rated":"N/A",
+      "Released":"01 Nov 1997",
+      "Runtime":"98 min",
+      "Genre":"Crime, Drama",
+      "Director":"Ash Baron-Cohen",
+      "Writer":"Ash Baron-Cohen",
+      "Actors":"Darling Narita, Peter Greene, Michael Newland, Erik Schrody",
+      "Plot":"A young woman in L.A. is having a bad day: she's evicted, an audition ends with a producer furious she won't trade sex for the part, and a policeman nabs her for something she didn't do, ...",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"1 nomination.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMjAxMDc5ODc2OF5BMl5BanBnXkFtZTcwMDE0MjkzMQ@@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"6.4/10"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"6.4",
+      "imdbVotes":"465",
+      "imdbID":"tt0109266",
+      "Type":"movie",
+      "DVD":"21 Nov 2006",
+      "BoxOffice":"N/A",
+      "Production":"Renegade Film",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"Jack",
+      "Year":"1996",
+      "Rated":"PG-13",
+      "Released":"09 Aug 1996",
+      "Runtime":"113 min",
+      "Genre":"Comedy, Drama, Fantasy",
+      "Director":"Francis Ford Coppola",
+      "Writer":"James DeMonaco, Gary Nadeau",
+      "Actors":"Robin Williams, Diane Lane, Brian Kerwin, Jennifer Lopez",
+      "Plot":"Because of an unusual aging disorder that has aged him four times faster than a normal human being, a boy enters the fifth grade for the first time with the appearance of a 40 year old man.",
+      "Language":"English, Spanish",
+      "Country":"USA",
+      "Awards":"6 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BZDYyYzAyNjctODM1Mi00ZjE4LWFmNTItZjRmOWUxODA1ODY4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"5.8/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"18%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"31/100"
+         }
+      ],
+      "Metascore":"31",
+      "imdbRating":"5.8",
+      "imdbVotes":"53,129",
+      "imdbID":"tt0116669",
+      "Type":"movie",
+      "DVD":"03 Aug 2004",
+      "BoxOffice":"N/A",
+      "Production":"Hollywood Pictures",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"Terminal",
+      "Year":"2018",
+      "Rated":"Not Rated",
+      "Released":"11 May 2018",
+      "Runtime":"95 min",
+      "Genre":"Crime, Drama, Thriller",
+      "Director":"Vaughn Stein",
+      "Writer":"Vaughn Stein",
+      "Actors":"Margot Robbie, Simon Pegg, Dexter Fletcher, Mike Myers",
+      "Plot":"A film noir taking place in a train terminal at night. Add 2 male assassins, female assassin, waitress, teacher, janitor and crime boss. Add revenge. Who says mystery is a lost art?",
+      "Language":"English",
+      "Country":"Ireland, UK, Hong Kong, Hungary, USA",
+      "Awards":"N/A",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BYmEzOGVmNWQtZDBiMC00OTk4LTg3OWQtMzc2MzgxNjlkY2JjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"5.3/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"21%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"27/100"
+         }
+      ],
+      "Metascore":"27",
+      "imdbRating":"5.3",
+      "imdbVotes":"15,465",
+      "imdbID":"tt4463816",
+      "Type":"movie",
+      "DVD":"26 Jun 2018",
+      "BoxOffice":"N/A",
+      "Production":"RLJ Entertainment",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"Arnold",
+      "Year":"1973",
+      "Rated":"PG",
+      "Released":"16 Nov 1973",
+      "Runtime":"94 min",
+      "Genre":"Comedy, Horror, Mystery",
+      "Director":"Georg Fenady",
+      "Writer":"Jameson Brewer, John Fenton Murray",
+      "Actors":"Stella Stevens, Roddy McDowall, Elsa Lanchester, Shani Wallis",
+      "Plot":"Upon his death, Arnold marries his lover, Karen, in spite of his widow, and leaves deathtraps accompanied by audiotapes and his preserved and articulate corpse for those who cared only for his money.",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"1 nomination.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BYmE0NDI4MGItM2Q0ZS00MTJiLWI2MDEtYTJiNDQ5MTEzNjYyXkEyXkFqcGdeQXVyNzc5MjA3OA@@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"5.6/10"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"5.6",
+      "imdbVotes":"300",
+      "imdbID":"tt0069732",
+      "Type":"movie",
+      "DVD":"N/A",
+      "BoxOffice":"N/A",
+      "Production":"Cinerama",
+      "Website":"N/A",
+      "Response":"True"
+   },
+   { 
+      "Title":"Tom Clancy's Jack Ryan",
+      "Year":"2018–",
+      "Rated":"TV-MA",
+      "Released":"31 Aug 2018",
+      "Runtime":"60 min",
+      "Genre":"Action, Drama, Thriller",
+      "Director":"N/A",
+      "Writer":"Carlton Cuse, Graham Roland",
+      "Actors":"John Krasinski, Wendell Pierce, John Hoogenakker, Abbie Cornish",
+      "Plot":"An up-and-coming CIA analyst, Jack Ryan, is thrust into a dangerous field assignment as he uncovers a pattern in terrorist communication that launches him into the center of a dangerous gambit.",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"N/A",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMGNlZThmMTItNjUzOS00NjM1LWE1ZDEtMGIzZTYxZWI2ODRjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"8.2/10"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"8.2",
+      "imdbVotes":"53,803",
+      "imdbID":"tt5057054",
+      "Type":"series",
+      "totalSeasons":"2",
+      "Response":"True"
+   },
+   { 
+      "Title":"Modern Family",
+      "Year":"2009–",
+      "Rated":"TV-PG",
+      "Released":"23 Sep 2009",
+      "Runtime":"22 min",
+      "Genre":"Comedy, Romance",
+      "Director":"N/A",
+      "Writer":"Steven Levitan, Christopher Lloyd",
+      "Actors":"Ed O'Neill, Julie Bowen, Sofía Vergara, Ty Burrell",
+      "Plot":"Three different but related families face trials and tribulations in their own uniquely comedic ways.",
+      "Language":"English",
+      "Country":"USA",
+      "Awards":"Won 1 Golden Globe. Another 116 wins & 344 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMTU2NTU3OTE5NF5BMl5BanBnXkFtZTgwMDAzMjE1NjM@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"8.4/10"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"8.4",
+      "imdbVotes":"316,929",
+      "imdbID":"tt1442437",
+      "Type":"series",
+      "totalSeasons":"11",
+      "Response":"True"
+   },
+   { 
+      "Title":"How I Met Your Mother",
+      "Year":"2005–2014",
+      "Rated":"TV-14",
+      "Released":"19 Sep 2005",
+      "Runtime":"22 min",
+      "Genre":"Comedy, Romance",
+      "Director":"N/A",
+      "Writer":"Carter Bays, Craig Thomas",
+      "Actors":"Josh Radnor, Jason Segel, Cobie Smulders, Neil Patrick Harris",
+      "Plot":"A father recounts to his children, through a series of flashbacks, the journey he and his four best friends took leading up to him meeting their mother.",
+      "Language":"English, Persian, Chinese",
+      "Country":"USA",
+      "Awards":"Nominated for 2 Golden Globes. Another 25 wins & 90 nominations.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BZWJjMDEzZjUtYWE1Yy00M2ZiLThlMmItODljNTAzODFiMzc2XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"8.3/10"
+         }
+      ],
+      "Metascore":"N/A",
+      "imdbRating":"8.3",
+      "imdbVotes":"550,097",
+      "imdbID":"tt0460649",
+      "Type":"series",
+      "totalSeasons":"9",
+      "Response":"True"
+   },
+   { 
+      "Title":"Love",
+      "Year":"2015",
+      "Rated":"Not Rated",
+      "Released":"30 Oct 2015",
+      "Runtime":"135 min",
+      "Genre":"Drama, Romance",
+      "Director":"Gaspar Noé",
+      "Writer":"Gaspar Noé",
+      "Actors":"Aomi Muyock, Karl Glusman, Klara Kristin, Ugo Fox",
+      "Plot":"Murphy is an American living in Paris who enters a highly sexually and emotionally charged relationship with the unstable Electra. Unaware of the effect it will have on their relationship, they invite their pretty neighbor into their bed.",
+      "Language":"English, French",
+      "Country":"France, Belgium",
+      "Awards":"2 wins & 1 nomination.",
+      "Poster":"https://m.media-amazon.com/images/M/MV5BMTQzNDUwODk5NF5BMl5BanBnXkFtZTgwNzA0MDQ2NTE@._V1_SX300.jpg",
+      "Ratings":[ 
+         { 
+            "Source":"Internet Movie Database",
+            "Value":"6.1/10"
+         },
+         { 
+            "Source":"Rotten Tomatoes",
+            "Value":"40%"
+         },
+         { 
+            "Source":"Metacritic",
+            "Value":"51/100"
+         }
+      ],
+      "Metascore":"51",
+      "imdbRating":"6.1",
+      "imdbVotes":"38,681",
+      "imdbID":"tt3774694",
+      "Type":"movie",
+      "DVD":"15 Mar 2016",
+      "BoxOffice":"$176,061",
+      "Production":"Alchemy",
+      "Website":"N/A",
+      "Response":"True"
    }
 ];

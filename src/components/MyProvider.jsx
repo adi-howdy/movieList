@@ -11,7 +11,10 @@ class MyProvider extends Component {
         movieFilter: [],
        // movieFiltered:[],
         series: [],
-        value: "Comedy"
+        value: "All",
+        rating: 0,
+        maxRating: 0,
+        minRating: 0
     }
 
     componentDidMount(){
@@ -21,12 +24,22 @@ class MyProvider extends Component {
        let movieAll = movie.filter(item => item.Type === "movie")
        let movieFilter = movie.filter(item => item.Type === "movie") 
        let series = movie.filter(item => item.Type === "series")
+       
+       let maxRating = Math.max(...movie.map(item => 
+           isNaN(Number(item.imdbRating)) ?  0: Number(item.imdbRating)
+    ))
+    let minRating = Math.min(...movie.map(item => 
+        isNaN(Number(item.imdbRating)) ?  0: Number(item.imdbRating)
+ ))
+        
        this.setState({
            movie: movie,
            movieFeatured: movieFeatured,
            movieAll : movieAll,
            movieFilter,
-           series
+           series,
+           minRating,
+           maxRating
           // movieFiltered
        })
     }
@@ -39,7 +52,6 @@ class MyProvider extends Component {
 
     formatData(movieItems){
         let tempItems = movieItems.map(movie => {
-           //let movie = {...item};
            return movie;
         })
         return tempItems;
@@ -54,15 +66,10 @@ class MyProvider extends Component {
     movieFiltered = () => {
        let tempMovies = [...this.state.movie];
        let filterMovie = tempMovies.filter(movie=> {
-           //console.log(this.state.value);
-           //console.log(movie);
-           return(movie.Genre.includes(this.state.value)) 
+           return(this.state.value==="All" ? movie.Type.includes("movie") : movie.Genre.includes(this.state.value)) 
        })
-       console.log(filterMovie);
        return filterMovie;
     }
-
-
 
     render() { 
         return ( 
